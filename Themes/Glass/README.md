@@ -1,7 +1,7 @@
 # Glass
 For when you want Discord *entirely* transparent.
 ## How it looks on top of applications;
-![Glass](https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Glass)
+![Glass](https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Glass/glass.png)
 ## Video demonstration;
 https://youtu.be/qx7v6kd8ihI
 ![Glass Video Demonstration](https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Glass/preview.webp)
