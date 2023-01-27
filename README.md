@@ -7,3 +7,9 @@ The old repositories for them are kept for historical reasons.
 Everything in this repository is individually licenced. For one reason or another. For the most part things are either MIT or ARR.
 Though... simple CSS is just that, CSS... I can't exactly claim ownership of that.
 I'm generally not bothered by how you use these, just don't claim ownership of them.
+
+# Theme Previews
+## Glass
+![Glass Video Demonstration](https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Glass/preview.webp)
+## Priscord
+![Preview Armcord](https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Priscord/preview_armcord.png)
