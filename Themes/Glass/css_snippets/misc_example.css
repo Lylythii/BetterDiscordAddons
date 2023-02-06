@@ -1,0 +1,6 @@
+/* Set the background for the Glass theme */
+:root,
+.theme-dark,
+.theme-light {
+	--background-image: url('https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/tree/main/Themes/Glass/background.png');
+}
