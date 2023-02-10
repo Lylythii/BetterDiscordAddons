@@ -1,7 +1,7 @@
 /**
 	* @name Glass
 	* @description Transparency for the Discord client.
-	* @version 0.1.5
+	* @version 0.1.6
 	* @author Lylythii
 	* @website https://lylythii.github.io
 	* @invite xsbNuYXBd5
@@ -175,6 +175,6 @@ background: none!important;
 } */
 
 /* SimpleDiscordCrypt Support? */
-.sdc-window, .sdc-footer, .sdc-overlay {
+.SDC_CREATEDB, .sdc-window, .sdc-footer, .sdc-overlay {
 	background-color: #00000080;
 }
