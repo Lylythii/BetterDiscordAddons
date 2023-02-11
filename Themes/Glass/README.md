@@ -20,7 +20,7 @@ https://youtu.be/qx7v6kd8ihI
 ### Something not transparent?
 [Open an issue please](https://github.com/Lylythii/BetterDiscordAddons/issues/new).
 
-## Don't want to modify the theme directly to add a custom background?
+# Don't want to modify the theme directly to add a custom background?
 ## Place this (& your chosen background url) into "Custom CSS". (or some other method of applying CSS);
 ```
 /* Set the background for the Glass theme */
