@@ -20,6 +20,11 @@ https://youtu.be/qx7v6kd8ihI
 ### Something not transparent?
 [Open an issue please](https://github.com/Lylythii/BetterDiscordAddons/issues/new).
 
+### Raw link to the theme because Vencord
+```
+https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Glass/Glass.theme.css
+```
+
 # Don't want to modify the theme directly to add a custom background?
 ## Place this (& your chosen background url) into "Custom CSS". (or some other method of applying CSS);
 ```
@@ -37,7 +42,7 @@ https://youtu.be/qx7v6kd8ihI
 :root,
 .theme-dark,
 .theme-light {
-	--background-image: url('https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/tree/main/Themes/Glass/background.png');
+	--background-image: url('https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Glass/background.png');
 }
 ```
 Raw url to preset theme background snippet for Vencord
