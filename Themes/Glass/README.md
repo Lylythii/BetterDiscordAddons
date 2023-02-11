@@ -20,8 +20,8 @@ https://youtu.be/qx7v6kd8ihI
 ### Something not transparent?
 [Open an issue please](https://github.com/Lylythii/BetterDiscordAddons/issues/new).
 
-### Don't want to modify the theme directly to add a custom background?
-Place this (& your chosen background url) into "Custom CSS". (or some other method of applying CSS);
+## Don't want to modify the theme directly to add a custom background?
+## Place this (& your chosen background url) into "Custom CSS". (or some other method of applying CSS);
 ```
 /* Set the background for the Glass theme */
 :root,
@@ -31,7 +31,7 @@ Place this (& your chosen background url) into "Custom CSS". (or some other meth
 }
 ```
 
-Here's a good example;
+## Here's a good example;
 ```
 /* Set the background for the Glass theme */
 :root,
@@ -45,7 +45,7 @@ Raw url to preset theme background snippet for Vencord
 https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Glass/css_snippets/misc_example.css
 ```
 
-Here's another, using the same background as [Priscord](https://github.com/Lylythii/BetterDiscordAddons/tree/main/Priscord);
+## Here's another, using the same background as [Priscord](https://github.com/Lylythii/BetterDiscordAddons/tree/main/Priscord);
 ```
 /* Set the background for the Glass theme */
 :root,
