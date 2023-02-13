@@ -1,7 +1,7 @@
 /**
 	* @name Glass
 	* @description Transparency for the Discord client.
-	* @version 0.1.7
+	* @version 0.1.8
 	* @author Lylythii
 	* @website https://lylythii.github.io
 	* @invite xsbNuYXBd5
@@ -64,7 +64,8 @@
 }
 /* Transparent Call Background */
 .wrapper-1gVUIN, .minimum-fXpVNc, .callContainer-HtHELf {
-background: none!important;
+	background-color: #00000040;
+	border: 1.5px inset #202225;
 }
 
 /* Inset backgrounds on elements */
