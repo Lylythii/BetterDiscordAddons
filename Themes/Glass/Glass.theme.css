@@ -1,7 +1,7 @@
 /**
 	* @name Glass
 	* @description Transparency for the Discord client.
-	* @version 0.1.8
+	* @version 0.1.9
 	* @author Lylythii
 	* @website https://lylythii.github.io
 	* @invite xsbNuYXBd5
@@ -39,6 +39,8 @@
     --scroller-track: transparent;
 	/* Change this url to whatever image you'd like as a background.*/
 	--background-image: url('');
+	/* Changes the Discord Home Icon to a more thematically fitting icon.*/
+	--glass-home-icon: url(https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Glass/branding/discord/logo_white.png);
 }
 
 /* Application Title Bar */
@@ -49,6 +51,17 @@
 #app-mount .container-3wLKDe, .chat-2ZfjoI, .background-fkKrXt, .header-3xB4vB, .content-1jQy2l, .root-g14mjS, .fullscreenOnMobile-ixj0e3, .card-14SgW5, .theme-dark, .navRow-dG-XX8, .directoryModal-YJsOMv, .autocomplete-3NRXG8, .flex-2S1XBF, .applicationStore-2nk7Lo, .bodyWrapper-23FTiG, .breadcrumbsWrapper--2LhnQ, .bodyWrapper-23FTiG {
 	background: transparent;
 }
+
+/* Discord Home Icon */
+.homeIcon-r0w4ny path {
+	fill: transparent;
+}
+.homeIcon-r0w4ny {
+  background: var(--glass-home-icon) center/cover no-repeat;
+  min-width: 50px;
+  min-height: 50px;
+}
+
 /* User Profile */
 #app-mount .root-2uUafN {
 	background: transparent;
