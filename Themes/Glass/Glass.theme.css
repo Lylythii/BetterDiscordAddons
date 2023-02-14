@@ -164,6 +164,14 @@
     opacity: 1;
 }
 
+/* Delete/Pin/Interact with message background */
+.theme-dark .message-G6O-Wv {
+    background-color: transparent;
+}
+.theme-light .message-G6O-Wv {
+    background-color: transparent;
+}
+
 /* BetterDiscord Notification Bar */
 .bd-notice {
 	background-color: #00000060;
