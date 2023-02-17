@@ -1,7 +1,7 @@
 /**
 	* @name Glass
 	* @description Transparency for the Discord client.
-	* @version 0.1.10
+	* @version 0.1.11
 	* @author Lylythii
 	* @website https://lylythii.github.io
 	* @invite xsbNuYXBd5
@@ -199,4 +199,10 @@
 /* SimpleDiscordCrypt Support? */
 .sdc-window, .sdc-footer, .sdc-overlay {
 	background-color: #00000080;
+}
+
+/* Server List Drawer Support */ /* https://github.com/Freeplayg/discord-serverlist-drawer */
+[class*="wrapper-"][class*="guilds-"] [class*="scroller-"] {
+    background-color: #00000080 !important;
+	border: 1.5px inset #202225;
 }
