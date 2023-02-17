@@ -48,7 +48,7 @@
 	background-color: #00000080;
 }
 
-#app-mount .container-3wLKDe, .chat-2ZfjoI, .background-fkKrXt, .header-3xB4vB, .content-1jQy2l, .root-g14mjS, .fullscreenOnMobile-ixj0e3, .card-14SgW5, .theme-dark, .navRow-dG-XX8, .directoryModal-YJsOMv, .autocomplete-3NRXG8, .flex-2S1XBF, .applicationStore-2nk7Lo, .bodyWrapper-23FTiG, .breadcrumbsWrapper--2LhnQ, .bodyWrapper-23FTiG, .sidebarRegion-1VBisG, .contentRegion-3HkfJJ {
+#app-mount .container-3wLKDe, .chat-2ZfjoI, .background-fkKrXt, .header-3xB4vB, .content-1jQy2l, .root-g14mjS, .fullscreenOnMobile-ixj0e3, .card-14SgW5, .theme-dark, .navRow-dG-XX8, .directoryModal-YJsOMv, .autocomplete-3NRXG8, .flex-2S1XBF, .applicationStore-2nk7Lo, .bodyWrapper-23FTiG, .breadcrumbsWrapper--2LhnQ, .bodyWrapper-23FTiG {
 	background: transparent;
 }
 
@@ -82,7 +82,7 @@
 }
 
 /* Inset backgrounds on elements */
-.message-2CShn3, .userPopoutInner-1hXSeY, .connectedAccountContainer-2TWiXT, .infoScroller-3MqKC5, .memberInner--L4X2b, .privateChannels-oVe7HL, .container-2cd8Mz, .collapseBtn-2sFINR {
+.message-2CShn3, .userPopoutInner-1hXSeY, .connectedAccountContainer-2TWiXT, .infoScroller-3MqKC5, .memberInner--L4X2b, .privateChannels-oVe7HL, .container-2cd8Mz, .collapseBtn-2sFINR, .sidebarRegion-1VBisG, .contentRegion-3HkfJJ {
 	background-color: #00000080;
 	border: 1.5px inset #202225;
 }
