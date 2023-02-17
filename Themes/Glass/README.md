@@ -5,6 +5,9 @@ For when you want Discord *entirely* transparent.
 ## Video demonstration;
 https://youtu.be/qx7v6kd8ihI
 ![Glass Video Demonstration](https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Glass/preview.webp)
+## Glass even supports other plugins/themes!
+- Note: Glass is *usually* best enabled *after* other themes to ensure it correctly adjust/fixes them.
+![Glass Video Demonstration](https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Glass/plugin-theme-compat.webp)
 
 ### Notes;
 - Transparency needs to be enabled in settings for this to work properly, or usage of a custom background or compatible client will suffice. In the case of BetterDiscord or Vencord, refer to below to see how to enable transparency. This requires a full client restart.
@@ -25,8 +28,8 @@ https://youtu.be/qx7v6kd8ihI
 https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Glass/Glass.theme.css
 ```
 
-# Don't want to modify the theme directly to add a custom background?
-## Place this (& your chosen background url) into "Custom CSS". (or some other method of applying CSS);
+### Don't want to modify the theme directly to add a custom background?
+#### Place this (& your chosen background url) into "Custom CSS". (or some other method of applying CSS);
 ```
 /* Set the background for the Glass theme */
 :root,
@@ -36,7 +39,7 @@ https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Glass
 }
 ```
 
-## Here's a good example;
+### Here's a good example;
 ```
 /* Set the background for the Glass theme */
 :root,
@@ -45,12 +48,12 @@ https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Glass
 	--background-image: url('https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Glass/background.png');
 }
 ```
-Raw url to preset theme background snippet for Vencord
+#### Raw url to preset theme background snippet for Vencord
 ```
 https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Glass/css_snippets/misc_example.css
 ```
 
-## Here's another, using the same background as [Priscord](https://github.com/Lylythii/BetterDiscordAddons/tree/main/Priscord);
+### Here's another, using the same background as [Priscord](https://github.com/Lylythii/BetterDiscordAddons/tree/main/Priscord);
 ```
 /* Set the background for the Glass theme */
 :root,
@@ -59,7 +62,7 @@ https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Glass
 	--background-image: url('https://raw.githubusercontent.com/PrismLauncher/prismlauncher.org/40d89d06ae90c7cbef18b06f52fd9a4c30c61db8/src/img/background/prism-background.svg');
 }
 ```
-Raw url to preset theme background snippet for Vencord
+#### Raw url to preset theme background snippet for Vencord
 ```
 https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Glass/css_snippets/priscord_background.css
 ```
