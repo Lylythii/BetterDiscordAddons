@@ -1,7 +1,7 @@
 /**
 	* @name Glass
 	* @description Transparency for the Discord client.
-	* @version 0.1.11
+	* @version 0.1.12
 	* @author Lylythii
 	* @website https://lylythii.github.io
 	* @invite xsbNuYXBd5
@@ -82,7 +82,7 @@
 }
 
 /* Inset backgrounds on elements */
-.message-2CShn3, .userPopoutInner-1hXSeY, .connectedAccountContainer-2TWiXT, .infoScroller-3MqKC5, .memberInner--L4X2b, .privateChannels-oVe7HL, .container-2cd8Mz, .collapseBtn-2sFINR, .sidebarRegion-1VBisG, .contentRegion-3HkfJJ {
+.message-2CShn3, .userPopoutInner-1hXSeY, .connectedAccountContainer-2TWiXT, .infoScroller-3MqKC5, .memberInner--L4X2b, .privateChannels-oVe7HL, .container-2cd8Mz, .collapseBtn-2sFINR, .sidebarRegion-1VBisG, .contentRegion-3HkfJJ, .contentWrapper-3vHNP2 {
 	background-color: #00000080;
 	border: 1.5px inset #202225;
 }
