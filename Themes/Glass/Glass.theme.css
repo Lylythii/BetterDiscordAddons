@@ -1,11 +1,11 @@
 /**
 	* @name Glass
 	* @description Transparency for the Discord client.
-	* @version 0.1.14
+	* @version 0.2.0
 	* @author Lylythii
 	* @website https://lylythii.github.io
 	* @invite xsbNuYXBd5
-	* @donate https://paypal.me/Lylythii
+	* @donate https://ko-fi.com/lylythii
 	* @patreon https://patreon.com/Lylythii
 	* @source https://github.com/Lylythii/BetterDiscordAddons/blob/main/Themes/Glass/Glass.theme.css
 	* @updateUrl https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Glass/Glass.theme.css
@@ -38,190 +38,19 @@
     --scroller-thumb: transparent;
     --scroller-track: transparent;
 	/* Change this url to whatever image you'd like as a background.*/
-	--background-image: url('');
-	/* Changes the Discord Home Icon to a more thematically fitting icon.*/
-	--glass-home-icon: url(https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Glass/branding/discord/logo_white.png);
+	--background-image: url(https://raw.githubusercontent.com/Lylythii/o.O/main/null.png);
+	/* Change this url to whatever image you'd like as a home icon.*/
+	--home-icon: url(https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Glass/branding/discord/logo_white.png);
 }
 
-/* -------- Application Title Bar -------- */
-.typeWindows-2-g3UY {
-	background-color: #00000080;
-}
-
-#app-mount .container-3wLKDe, .chat-2ZfjoI, .background-fkKrXt, .header-3xB4vB, .content-1jQy2l, .root-g14mjS, .fullscreenOnMobile-ixj0e3, .card-14SgW5, .theme-dark, .navRow-dG-XX8, .directoryModal-YJsOMv, .autocomplete-3NRXG8, .flex-2S1XBF, .applicationStore-2nk7Lo, .bodyWrapper-23FTiG, .breadcrumbsWrapper--2LhnQ, .bodyWrapper-23FTiG {
-	background: transparent;
-}
-
-/* -------- Discord Home Icon -------- */
 .homeIcon-r0w4ny path {
 	fill: transparent;
 }
 .homeIcon-r0w4ny {
-  background: var(--glass-home-icon) center/cover no-repeat;
+  background: var(--home-icon) center/cover no-repeat;
   min-width: 50px;
   min-height: 50px;
 }
-
-/* -------- User Profile -------- */
-#app-mount .root-2uUafN {
-	background: transparent;
+.homeIcon-r0w4ny {
+	background-color: transparent;
 }
-/* P-------- opup Modals -------- */
-#app-mount .modal-1ocm0B {
-	background: transparent;
-}
-/* -------- Notification Bar -------- */
-.notice-2HEN-u {
-	background-color: #00000040;
-	border: 1.5px inset #202225;
-}
-/* -------- Transparent Call Background -------- */
-.wrapper-1gVUIN, .minimum-fXpVNc, .callContainer-HtHELf {
-	background-color: #00000040;
-	border: 1.5px inset #202225;
-}
-
-/* -------- Inset backgrounds on elements -------- */
-.message-2CShn3, .userPopoutInner-1hXSeY, .connectedAccountContainer-2TWiXT, .infoScroller-3MqKC5, .memberInner--L4X2b, .privateChannels-oVe7HL, .container-2cd8Mz, .collapseBtn-2sFINR, .sidebarRegion-1VBisG, .contentRegion-3HkfJJ, .contentWrapper-3vHNP2, .flex-2S1XBF {
-	background-color: #00000080;
-	border: 1.5px inset #202225;
-}
-.scroller-1jBQYo, .section-3FmfOT, .container-1U-qVy {
-	background-color: #00000060;
-	border: 1.5px inset #202225;
-}
-
-/* -------- Channels Sidebar -------- */
-.scroller-1ox3I2 {
-	background-color: #00000090;
-}
-/* -------- Create Channel -------- */
-.addButtonIcon-3rJeaD {
-	background-color: #00000080;
-	border: 1.5px outset #202225;
-}
-/* -------- Channels -------- */
-/*
-.content-1gYQeQ {
-	background-color: #00000080;
-	border: 1.5px outset #202225;
-}
-*/
-
-/* -------- Members Sidebar -------- */
-/*.members-3WRCEx,*/ .container-2o3qEW {
-	background-color: #00000090;
-    margin-left: 8px;
-}
-/* -------- Members Member -------- */
-.layout-1qmrhw {
-	background-color: #00000080;
-	border: 1.5px outset #202225;
-}
-.member-2gU6Ar {
-    margin-left: 4px;
-}
-
-/* -------- Title Bar (Channel Header) -------- */
-#app-mount .title-31SJ6t {
-	background-color: #00000090;
-	border: 1.5px inset #202225;
-}
-
-/* -------- Scrollers -------- */
-.scroller-kQBbkU, .scroller-3X7KbA, .scroller-1bVxF5, .scroller-29cQFV {
-	background-color: #00000090;
-	border: 1.5px inset #202225;
-}
-
-/* -------- Buttons -------- */
-/*
-.button-3bklZh, .button-f2h6uQ {
-	background-color: #00000080;
-}
-*/
-
-/* --------Chat Messaege Bar -------- */
-.inner-NQg18Y, .form-3gdLxP {
-	background-color: #00000080;
-	border: 0.5px inset #202225;
-}
-
-/* -------- User Container -------- */
-.panels-3wFtMD {
-	background-color: #00000080;
-	border: 1.5px outset #202225;
-}
-/* -------- User Container Profile -------- */
-.container-YkUktl {
-	background-color: #00000080;
-	border: 1.5px outset #202225;
-}
-/* -------- User Container Spotify -------- */
-.vc-spotify-button-row, .container-6sXIoE {
-	background-color: #00000080;
-	border: 1.5px outset #202225;
-}
-
-/* -------- Remove Offline User gray-out -------- */ /* Default opacity; .3 */
-.offline-22aM7E {
-    opacity: 1;
-}
-
-/* -------- Delete/Pin/Interact with message background -------- */
-.theme-dark .message-G6O-Wv {
-    background-color: transparent;
-}
-.theme-light .message-G6O-Wv {
-    background-color: transparent;
-}
-
-/* -------- BetterDiscord Notification Bar -------- */
-.bd-notice {
-	background-color: #00000060;
-	border: 1.5px inset #202225;
-}
-/* -------- BetterDiscord Misc -------- */
-.bd-addon-header, .bd-description-wrap, .bd-footer, .bd-error-modal-header, .bd-addon-error-header {
-    background-color: #00000060;
-	border: 1.5px inset #202225;
-}
-
-/* -------- Date Viewer Plugin -------- */
-#dv-mount {
-    background-color: transparent;
-}
-#app-mount .dv-time, .dv-date, .dv-weekday {
-    background: #33333380;
-}
-
-/* -------- Invisible Typing Plugin -------- */
-/*
-.invisible-typing-button {
-	background-color: #00000080;
-}
-*/
-
-/* -------- SimpleDiscordCrypt Support? -------- */
-.sdc-window, .sdc-footer, .sdc-overlay {
-	background-color: #00000080;
-}
-
-/* Server List Drawer Support */ /* https://github.com/Freeplayg/discord-serverlist-drawer */
-[class*="wrapper-"][class*="guilds-"] [class*="scroller-"] {
-    background-color: #00000080 !important;
-	border: 1.5px inset #202225;
-}
-
-/* -------- Channel Tabs Support -------- */
-/* Misc */
-.channelTabs-tabContainer, .channelTabs-favContainer, .channelTabs-settingsMenu {
-    background-color: #00000080;
-	border: 1.5px inset #202225;
-}
-/* Navigator */
-.channelTabs-tabNav {
-    background-color: #00000080;
-	border: 1.5px inset #202225;
-}
-
