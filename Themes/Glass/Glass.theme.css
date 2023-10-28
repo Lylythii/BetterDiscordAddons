@@ -1,9 +1,9 @@
 /**
 	* @name Glass
 	* @description Transparency for the Discord client.
-	* @version 0.2.0
+	* @version 0.3.0
 	* @author Lylythii
-	* @website https://lylythii.github.io
+	* @website https://lylythii.com
 	* @invite xsbNuYXBd5
 	* @donate https://ko-fi.com/lylythii
 	* @patreon https://patreon.com/Lylythii
@@ -18,8 +18,9 @@
 }
 
 :root,
+.theme-light,
 .theme-dark,
-.theme-light {
+.theme-amoled {
     --background-primary: transparent;
     --background-secondary: transparent;
     --background-secondary-alt: transparent; 
@@ -38,19 +39,18 @@
     --scroller-thumb: transparent;
     --scroller-track: transparent;
 	/* Change this url to whatever image you'd like as a background.*/
-	--background-image: url(https://raw.githubusercontent.com/Lylythii/o.O/main/null.png);
+	--background-image: url(https://raw.githubusercontent.com/Lylythii/.../main/glass.png);
 	/* Change this url to whatever image you'd like as a home icon.*/
-	--home-icon: url(https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Glass/branding/discord/logo_white.png);
+	--home_button-icon: url(https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Glass/branding/discord/logo_white.png);
 }
 
-.homeIcon-r0w4ny path {
-	fill: transparent;
+.wrapper_d281dd[data-list-item-id="guildsnav___home"] path {
+    display: none !important
 }
-.homeIcon-r0w4ny {
-  background: var(--home-icon) center/cover no-repeat;
-  min-width: 50px;
-  min-height: 50px;
-}
-.homeIcon-r0w4ny {
-	background-color: transparent;
+.wrapper_d281dd[data-list-item-id="guildsnav___home"]::before {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: var(--home_button-icon) center/cover no-repeat;
 }
