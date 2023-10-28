@@ -10,6 +10,8 @@ I'm generally not bothered by how you use these, just don't claim ownership of t
 
 # Theme Previews
 ## Glass
+- Note: Armcord & Vencord now support Transparency on Windows 11 only.
+- BetterDiscord still supports Windows 10. Unsure if this will change again in the future.
 ![Glass Video Demonstration on BetterDiscord](https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Glass/preview.webp)
 ### Raw Link to Theme you can paste into Vencords "Online Themes" box.
 ```
