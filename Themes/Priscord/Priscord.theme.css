@@ -1,7 +1,7 @@
 /**
 	* @name Priscord
 	* @description Transparency for the Discord client.
-	* @version 0.1.4
+	* @version 0.2.0
 	* @author Lylythii
 	* @website https://lylythii.github.io
 	* @invite xsbNuYXBd5
@@ -15,16 +15,15 @@
 	Prism's Branding; https://prismlauncher.org/wiki/branding/
 */
 
-#app-mount .bg-1QIAus {
-	background: var(--background-image);
-	background-position: var(--background-image-position, center);
-	background-size: var(--background-image-size, cover);
+.appMount_fae9dd {
+	background: var(--background-image) center/cover no-repeat
 }
 
 /* ToDo: Separate themes for Light & Dark Prism colour schemes? */
 :root,
+.theme-light,
 .theme-dark,
-.theme-light {
+.theme-amoled {
 	--background-primary: #15181ce7;	/* Solid Colour; #15181c | Default is now translucent */
 	--background-secondary: #21242b90;
 	--background-secondary-alt: #21242b;
@@ -36,28 +35,25 @@
 	--header-primary: #ffffff;
 	--header-secondary: #ffffff;
 	/* Icons & Banners */
-	--priscord-home-icon: url(https://raw.githubusercontent.com/PrismLauncher/prismlauncher.org/40d89d06ae90c7cbef18b06f52fd9a4c30c61db8/src/img/logo.svg);
-	--background-image: url('https://raw.githubusercontent.com/PrismLauncher/prismlauncher.org/40d89d06ae90c7cbef18b06f52fd9a4c30c61db8/src/img/background/prism-background.svg');
+	--home_button-icon: url(https://raw.githubusercontent.com/PrismLauncher/prismlauncher.org/40d89d06ae90c7cbef18b06f52fd9a4c30c61db8/src/img/logo.svg);
+	--background-image: url(https://raw.githubusercontent.com/PrismLauncher/prismlauncher.org/40d89d06ae90c7cbef18b06f52fd9a4c30c61db8/src/img/background/prism-background.svg);
 }
 
-.homeIcon-r0w4ny path {
-	fill: transparent;
+.wrapper_d281dd[data-list-item-id="guildsnav___home"] path {
+    display: none !important
 }
-.homeIcon-r0w4ny {
-  background: var(--priscord-home-icon) center/cover no-repeat;
-  min-width: 50px;
-  min-height: 50px;
+.wrapper_d281dd[data-list-item-id="guildsnav___home"]::before {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: var(--home_button-icon) center/cover no-repeat;
 }
-.homeIcon-r0w4ny {
-	background-color: #15181c;
-}
-
 
 /* Scroller Borders */
 .scroller-1bVxF5 {
 	border: 3px solid #202225;
 }
-
 
 /* Create/Join Server */
 .text-PdAsFQ, .defaultColor-1EVLSt {
