@@ -1,7 +1,7 @@
 /**
 	* @name Glass
 	* @description Transparency for the Discord client.
-	* @version 0.3.0
+	* @version 0.3.1
 	* @author Lylythii
 	* @website https://lylythii.com
 	* @invite xsbNuYXBd5
@@ -11,8 +11,8 @@
 	* @updateUrl https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Glass/Glass.theme.css
 */
 
-#app-mount .bg-1QIAus {
-	background: var(--background-image);
+[class*=appMount_fae9dd] {
+    background: var(--background-image);
 	background-position: var(--background-image-position, center);
 	background-size: var(--background-image-size, cover);
 }
@@ -53,4 +53,8 @@
     width: 32px;
     height: 32px;
     background: var(--home_button-icon) center/cover no-repeat;
+}
+
+.message__80c10.selected_fd9051, .mouse-mode.full-motion .message__80c10:hover {
+    background-color: rgba(0, 0, 0, 0.3);
 }
