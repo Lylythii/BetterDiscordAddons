@@ -1,7 +1,7 @@
 /**
 	* @name Glass
 	* @description Transparency for the Discord client.
-	* @version 0.3.1
+	* @version 0.3.2
 	* @author Lylythii
 	* @website https://lylythii.com
 	* @invite xsbNuYXBd5
@@ -11,7 +11,7 @@
 	* @updateUrl https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Glass/Glass.theme.css
 */
 
-[class*=appMount_fae9dd] {
+[id="app-mount"] {
     background: var(--background-image);
 	background-position: var(--background-image-position, center);
 	background-size: var(--background-image-size, cover);
@@ -21,33 +21,33 @@
 .theme-light,
 .theme-dark,
 .theme-amoled {
-    --background-primary: transparent;
-    --background-secondary: transparent;
-    --background-secondary-alt: transparent; 
-    --background-tertiary: transparent;
-    --background-accent: transparent;
-    --background-floating: transparent;
-    --background-modifier-rgb: transparent;
-    --background-modifier-hover: transparent;
-    --background-modifier-active: transparent;
-    --background-modifier-selected: transparent;
-    --background-modifier-accent: transparent;
+    --background-primary: #00000020;
+    --background-secondary: #00000020;
+    --background-secondary-alt: #00000020; 
+    --background-tertiary: #00000020;
+    --background-accent: #00000020;
+    --background-floating: #00000020;
+    --background-modifier-rgb: #00000020;
+    --background-modifier-hover: #00000020;
+    --background-modifier-active: #00000020;
+    --background-modifier-selected: #00000020;
+    --background-modifier-accent: #00000020;
     --channels-default: white;
-    --channeltextarea-background: transparent;
-    --searcharea-background: transparent;
-    --input-background: transparent;
-    --scroller-thumb: transparent;
-    --scroller-track: transparent;
+    --channeltextarea-background: #00000020;
+    --searcharea-background: #00000020;
+    --input-background: #00000020;
+    --scroller-thumb: #00000020;
+    --scroller-track: #00000020;
 	/* Change this url to whatever image you'd like as a background.*/
-	--background-image: url(https://raw.githubusercontent.com/Lylythii/.../main/glass.png);
+	--background-image: url();
 	/* Change this url to whatever image you'd like as a home icon.*/
 	--home_button-icon: url(https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Glass/branding/discord/logo_white.png);
 }
 
-.wrapper_d281dd[data-list-item-id="guildsnav___home"] path {
+.wrapper_c5f96a[data-list-item-id="guildsnav___home"] path {
     display: none !important
 }
-.wrapper_d281dd[data-list-item-id="guildsnav___home"]::before {
+.wrapper_c5f96a[data-list-item-id="guildsnav___home"]::before {
     content: "";
     position: absolute;
     width: 32px;
