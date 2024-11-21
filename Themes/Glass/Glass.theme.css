@@ -1,7 +1,7 @@
 /**
 	* @name Glass
 	* @description Transparency for the Discord client.
-	* @version 0.3.2
+	* @version 0.3.3
 	* @author Lylythii
 	* @website https://lylythii.com
 	* @invite xsbNuYXBd5
@@ -44,10 +44,10 @@
 	--home_button-icon: url(https://raw.githubusercontent.com/Lylythii/BetterDiscordAddons/main/Themes/Glass/branding/discord/logo_white.png);
 }
 
-.wrapper_c5f96a[data-list-item-id="guildsnav___home"] path {
+.wrapper_f90abb[data-list-item-id="guildsnav___home"] path {
     display: none !important
 }
-.wrapper_c5f96a[data-list-item-id="guildsnav___home"]::before {
+.wrapper_f90abb[data-list-item-id="guildsnav___home"]::before {
     content: "";
     position: absolute;
     width: 32px;

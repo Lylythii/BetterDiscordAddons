@@ -1,7 +1,7 @@
 /**
 	* @name Priscord
 	* @description Transparency for the Discord client.
-	* @version 0.2.0
+	* @version 0.2.1
 	* @author Lylythii
 	* @website https://lylythii.com
 	* @invite xsbNuYXBd5
@@ -15,7 +15,7 @@
 	Prism's Branding; https://prismlauncher.org/wiki/branding/
 */
 
-.appMount_fae9dd {
+[id="app-mount"] {
 	background: var(--background-image) center/cover no-repeat
 }
 
@@ -39,10 +39,10 @@
 	--background-image: url(https://raw.githubusercontent.com/PrismLauncher/prismlauncher.org/40d89d06ae90c7cbef18b06f52fd9a4c30c61db8/src/img/background/prism-background.svg);
 }
 
-.wrapper_d281dd[data-list-item-id="guildsnav___home"] path {
+.wrapper_f90abb[data-list-item-id="guildsnav___home"] path {
     display: none !important
 }
-.wrapper_d281dd[data-list-item-id="guildsnav___home"]::before {
+.wrapper_f90abb[data-list-item-id="guildsnav___home"]::before {
     content: "";
     position: absolute;
     width: 32px;
